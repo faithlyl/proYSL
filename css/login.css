@@ -5,10 +5,93 @@
     padding:2px;
 }
 /*×ó±ß²¿·Ö*/
+.left{
+    width:800px;
+}
 .fontshisi{
     font-size:14px;
 }
 .inputsize{
     width:430px;
     height: 50px;
+}
+.xing{
+    font-size: 14px;
+    color:red;
+}
+.inputsize02{
+    width:200px;
+    height: 50px;
+}
+
+.btnstyle{
+    width:180px;
+    height:45px;
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius:0;
+    margin-top: -4px;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+}
+.btn:hover .btn-a{
+    color:black;
+}
+.acolor{
+    color: white;
+    margin-bottom: 2px;
+}
+
+.axia{
+    text-decoration:underline;
+}
+
+
+/*ÓÒ²à*/
+.righttop{
+    margin-left: 50px;
+    width: 306px;
+    height: 513px;
+    background-color: #f2f2f2;
+}
+.w1{
+    font-size:18px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.w2{
+    font-size: 14px;
+    color: #999;
+    line-height: 18px;
+}
+.zhuce{
+    font-size:24px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+.rightbottom{
+    width:306px;
+    height: 250px;
+    background-color: #f2f2f2;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.p1{
+    font-size:24px;
+}
+.p2{
+    font-size:14px;
+}
+.call{
+    width: 15px;
+    height: 15px;
+}
+.anniu{
+    margin-left:65px;
 }
