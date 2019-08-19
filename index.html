@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="w-100 text-center yellow">
+        <span class="m-auto">YSL小金条断货王回归,不羁色,红出界</span>
+    </div>
+    <div class="d-flex justify-content-between">
+        <ul class="d-flex">
+            <li class="list-unstyled px-4" >
+                <a href="" class="axian">
+                    <img src="img/index/didian.png" alt="" class="didiansize"/>
+                    <span class="shier">专柜查询</span>
+                </a>
+            </li>
+            <li class="huisecolor">
+                <a href="" class="axian">
+                    <span class="shier">客服中心</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="d-flex">
+            <li class="pr-5 list-unstyled">
+                <a href="" class="axian">
+                    <span class="heise">订阅电子杂志</span>
+                </a>
+            </li>
+            <li class="pr-5">
+                <a href="" class="axian">
+                    <span class="heise">登录与注册</span>
+                </a>
+            </li>
+            <li class="pr-5">
+                <a href="" class="axian">
+                    <img src="img/index/shop.png" alt="" class="shopsize "/>
+                    <span class="heise">购物袋</span>
+                    <img src="img/index/sanjiao.png" alt="" class="shopsize "/>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 头部logo-->
+    <div class="mt-3 d-flex justify-content-around mb-4">
+        <img src="img/index/logo@2x.png" class="logo" alt=""/>
+    </div>
+    <!-- 水平导航栏-->
+    <div class="d-flex justify-content-start">
+        <div  class="border-bottom border-top borderwidth mb-2">
+            <div class="d-flex justify-content-around">
+                <div class="axian">
+                    <ul class="breadcrumb bg-white m-0">
+                        <li class="breadcrumb-item daohang">
+                            <a class="axian" data-toggle="tab" href="">
+                                <span class="daohang spancolor axian">彩妆</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item daohang axian">
+                            <a class=" text-dark axian" data-toggle="tab" href="">
+                                <span class="daohang spancolor axian">护肤</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item daohang ">
+                            <a class=" axian" data-toggle="tab" href="">
+                                <span class="daohang spancolor ">香水</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a class=" text-dark daohang axian" href="">
+                                <span class="daohang spancolor">明星产品</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a class=" text-dark daohang axian" href="">
+                                <span class="daohang spancolor ">尊享礼盒</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a class=" text-dark daohang axian" href="">
+                                <span class="daohang spancolor ">会员中心</span>
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a class=" text-dark daohang axian" href="">
+                                <span class="daohang spancolor axian">私人订制服务</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ml-5">
+                    <input type="text" class="input" value="小金条"/>
+                    <img src="img/index/sousuo.png" alt="" class="sousuosize mb-1"/>
+                </div>
+            </div>
+            <!--<div class="xianshi">-->
+                <!--<div id="tab1" class="caizhuang">-->
+                    <!--<div class="d-flex justify-content-start">-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">唇部</a>-->
+                            <!--<a href="" class=" text-dark ">唇膏</a>-->
+                            <!--<a href="" class=" text-dark ">唇釉</a>-->
+                            <!--<a href="" class=" text-dark ">唇油</a>-->
+                        <!--</div>-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">面部</a>-->
+                            <!--<a href="" class=" text-dark ">明彩笔</a>-->
+                            <!--<a href="" class=" text-dark ">妆前隔离</a>-->
+                            <!--<a href="" class=" text-dark ">粉底</a>-->
+                            <!--<a href="" class=" text-dark ">粉饼</a>-->
+                            <!--<a href="" class=" text-dark ">蜜粉</a>-->
+                            <!--<a href="" class=" text-dark ">腮红</a>-->
+                        <!--</div>-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">眼部</a>-->
+                            <!--<a href="" class=" text-dark ">睫毛膏</a>-->
+                            <!--<a href="" class=" text-dark ">眉笔</a>-->
+                            <!--<a href="" class=" text-dark ">眼线</a>-->
+                            <!--<a href="" class=" text-dark ">眉粉</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div  class="caizhuang">-->
+                    <!--<div class="d-flex justify-content-start">-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">按产品分类</a>-->
+                            <!--<a href="" class=" text-dark ">隔离防晒</a>-->
+                            <!--<a href="" class=" text-dark ">卸妆清洁</a>-->
+                            <!--<a href="" class=" text-dark ">爽肤</a>-->
+                            <!--<a href="" class=" text-dark ">精华</a>-->
+                            <!--<a href="" class=" text-dark ">面霜乳液</a>-->
+                            <!--<a href="" class=" text-dark ">眼唇护理</a>-->
+                            <!--<a href="" class=" text-dark ">护肤工具</a>-->
+                        <!--</div>-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">按功能分类</a>-->
+                            <!--<a href="" class=" text-dark ">Y型轮廓</a>-->
+                            <!--<a href="" class=" text-dark ">全效青春</a>-->
+                            <!--<a href="" class=" text-dark ">提亮美白</a>-->
+                            <!--<a href="" class=" text-dark ">淡斑美白</a>-->
+                            <!--<a href="" class=" text-dark ">至臻奢护</a>-->
+                            <!--<a href="" class=" text-dark ">基础亮颜</a>-->
+                        <!--</div>-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">按系列分类-->
+                            <!--</a>-->
+                            <!--<a href="" class=" text-dark ">纯白系列</a>-->
+                            <!--<a href="" class=" text-dark ">妍活青春</a>-->
+                            <!--<a href="" class=" text-dark ">臻透亮白</a>-->
+                            <!--<a href="" class=" text-dark ">藏金奢妍</a>-->
+                            <!--<a href="" class=" text-dark ">超模绝密</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div  class="caizhuang">-->
+                    <!--<div class="d-flex justify-content-start">-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">女士香水-->
+                            <!--</a>-->
+                            <!--<a href="" class=" text-dark ">反转巴黎香水</a>-->
+                            <!--<a href="" class=" text-dark ">黑色奥飘茗香水</a>-->
+                        <!--</div>-->
+                        <!--<div class="mx-5 d-flex flex-column mt-4">-->
+                            <!--<a href="" class=" text-dark font-weight-bold">男士香水-->
+                            <!--</a>-->
+                            <!--<a href="" class=" text-dark ">天之骄子男士香水</a>-->
+                            <!--<a href="" class=" text-dark ">暗夜男士香水</a>-->
+                            <!--<a href="" class=" text-dark ">Y男士香水</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <!-- 轮播图-->
+    <div class="carousel" data-ride="carousel" id="demo">
+        <!-- 轮播图片-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="">
+                    <img src="img/index/banner1.jpg" class="w-100" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/index/banner2.jpg" class="w-100" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/index/banner3.jpg" class="w-100" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/index/banner4.jpg" class="w-100" alt=""/>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="">
+                    <img src="img/index/banner5.jpg" class="w-100" alt=""/>
+                </a>
+            </div>
+        </div>
+        <!-- 左右箭头-->
+        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+            <span class=" carousel-control-prev-icon"></span>
+        </a>
+        <a href="#demo" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <!-- 轮播指示器-->
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#demo"></li>
+            <li data-slide-to="1" data-target="#demo"></li>
+            <li data-slide-to="2" data-target="#demo"></li>
+            <li data-slide-to="3" data-target="#demo"></li>
+            <li data-slide-to="4" data-target="#demo"></li>
+        </ul>
+    </div>
+    <!-- 轮播图end-->
+    <!--明星产品 start -->
+    <div class="mt-5">
+        <h5 class="text-center">YSL FAVORITES</h5>
+        <h3 class="text-center">明星产品</h3>
+    </div>
+    <!-- 小导航 start-->
+    <div class="d-flex justify-content-around mt-5 mb-2">
+        <ul class="list-unstyled nav nav-tabs">
+            <li class="nav-item">
+                <a href="" class="nav-link text-muted px-5">七夕礼盒</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-muted px-5">彩妆</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-muted px-5">香水</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-muted px-5">护肤</a>
+            </li>
+        </ul>
+    </div>
+    <!-- 小导航 end-->
+    <div class="row">
+        <div class="col-md-5 col-sm-12">
+            <a href="" class="a_cursor">
+                <img src="img/index/15631715507023394.jpg" alt="" class="img-fluid"/>
+            </a>
+        </div>
+        <div class="col-md-7 col-sm-12">
+            <div class="row">
+                <div class="col-4 ">
+                    <img src="img/index/YSL01.jpg" alt=""/>
+                    <img src="img/index/color01.gif" alt=""/>
+                    <img src="img/index/color02.gif" alt=""/>
+                    <img src="img/index/color03.gif" alt=""/>
+                    <img src="img/index/color04.gif" alt=""/>
+                    <div class="text-center mb-3">
+                        <h6 class="font-weight-bold my-3 ">RPC THE SLIM CVD COLLECTOR</h6>
+                        <a href="" class="h6 text-muted">YSL以爱为妆细管纯口红</a><br/>
+                        <a href="" class="my_small text-muted ">破解颠覆爱就不虚前行</a>
+                    </div>
+                    <div class="text-center text-muted">
+                        <span>★★★★★</span>
+                        <span>|</span>
+                        <span class="text-dark font-weight-bold">￥335</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="img/index/YSL02.jpg" alt=""/>
+                    <img src="img/index/color01.gif" alt=""/>
+                    <img src="img/index/color02.gif" alt=""/>
+                    <img src="img/index/color03.gif" alt=""/>
+                    <img src="img/index/color04.gif" alt=""/>
+                    <div class="text-center mb-3">
+                        <h6 class="font-weight-bold my-3 ">RPC THE SLIM CVD COLLECTOR</h6>
+                        <a href="" class="h6 text-muted">YSL以爱为妆纯口红</a><br/>
+                        <a href="" class="my_small text-muted ">优雅随性爱就大声宣誓</a>
+                    </div>
+                    <div class="text-center text-muted">
+                        <span>★★★★★</span>
+                        <span>|</span>
+                        <span class="text-dark font-weight-bold">￥320</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="img/index/YSL03.jpg" alt=""/>
+                    <img src="img/index/color01.gif" alt=""/>
+                    <img src="img/index/color02.gif" alt=""/>
+                    <img src="img/index/color03.gif" alt=""/>
+                    <img src="img/index/color04.gif" alt=""/>
+                    <div class="text-center mb-3">
+                        <h6 class="font-weight-bold my-3 ">RPC THE SLIM CVD COLLECTOR</h6>
+                        <a href="" class="h6 text-muted">YSL黑管水唇釉</a><br/>
+                        <a href="" class="my_small text-muted ">打造撩人湿吻唇</a>
+                    </div>
+                    <div class="text-center text-muted">
+                        <span>★★★★★</span>
+                        <span>|</span>
+                        <span class="text-dark font-weight-bold">￥320</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--明星产品 end -->
+    <!-- 探索发现 start-->
+    <div class="divcolor mt-5 w-100 pb-5">
+        <div class="text-center pt-5 mb-4">
+            <h5>YSL BEAUTY</h5>
+            <h3>探索发现</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 col-md-6">
+                <a href="">
+                    <img src="img/index/caizhuang.jpg" alt=""/>
+                </a>
+                <div class="bg-white pb-3">
+                    <table></table>
+                    <div class="mt-5 ml-4">
+                        <a href="" class="text-dark  h4">彩妆</a>
+                    </div>
+                    <p class="my_small ml-4 mt-3 text-muted mb-5">铆钉元素灵感来源于YSL高定秀场，大胆无畏，优雅随性，自由叛逆</p>
+                    <a href="" class="mt-5 ml-4 text-dark axian ">了解详情</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+                <a href="">
+                    <img src="img/index/lihe.jpg" alt=""/>
+                </a>
+                <div class="bg-white pb-3">
+                    <table></table>
+                    <div class="mt-5 ml-4">
+                        <a href="" class="text-dark  h4">礼盒</a>
+                    </div>
+                    <p class="my_small ml-4 mt-3 text-muted mb-5">一吻红唇坠入爱的漩潮，以爱为妆，尽显锋芒。#DRESS IN LOVE</p>
+                    <a href="" class="mt-5 ml-4 text-dark axian" >了解详情</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+                <a href="">
+                    <img src="img/index/xiangshui.jpg" alt=""/>
+                </a>
+                <div class="bg-white pb-3">
+                    <table></table>
+                    <div class="mt-5 ml-4">
+                        <a href="" class="text-dark  h4">香水</a>
+                    </div>
+                    <p class="my_small ml-4 mt-3 text-muted mb-5">敢爱就来，恣意追逐天翻地覆的爱情冒险。#FOLLOW MY TRAIL</p>
+                    <a href="" class="mt-5 ml-4 text-dark axian">了解详情</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6">
+                <a href="">
+                    <img src="img/index/hufu.jpeg" alt=""/>
+                </a>
+                <div class="bg-white pb-3">
+                    <table></table>
+                    <div class="mt-5 ml-4">
+                        <a href="" class="text-dark  h4">护肤</a>
+                    </div>
+                    <p class="my_small ml-4 mt-3 text-muted mb-5">超模绝密系列，YSL的后台秘密，即刻水润，瞬时平滑。</p>
+                    <a href="" class="mt-5 ml-4 text-dark axian">了解详情</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 探索发现 end-->
+    <!-- 香水图 start-->
+    <div>
+        <a href="">
+            <img src="img/index/datuxiangshui.jpg" alt="" class="w-100"/>
+        </a>
+    </div>
+    <!-- 香水图 end-->
+    <!-- 私人订制服务 start-->
+    <div class="divcolor  w-100 pb-5">
+        <div class="text-center pt-5 mb-4">
+            <h5>YSL ESSENTIALS</h5>
+            <h3>私人订制服务</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="">
+                            <img src="img/index/sirendingzhi.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <div class=" col-6 bg-white pb-3">
+                        <table></table>
+                        <div class="mt-5 ml-4 pt-5">
+                            <a href="" class="text-dark  h4">MAKE IT YOURS
+                                定制专属你的YSL</a>
+                        </div>
+                        <p class="my_small ml-4 mt-3 text-muted mb-5 pt-3">四步定制：线上挑选七夕限定礼盒-刻字礼遇-卡片定制-高定包装</p>
+                        <a href="" class="mt-5 ml-4 text-dark my_small">立即定制</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="">
+                            <img src="img/index/sirendingzhi02.jpg" alt=""/>
+                        </a>
+                    </div>
+                    <div class="col-6 bg-white pb-3">
+                        <table></table>
+                        <div class="mt-5 ml-4 pt-5">
+                            <a href="" class="text-dark  h4">ENGRAVING SERVICE
+                                尊享刻字礼遇</a>
+                        </div>
+                        <p class="my_small ml-4 mt-3 text-muted mb-5 pt-3">镌刻YSL明星口红/香水/气垫 留下你的专属印记，表达你的爱</p>
+                        <a href="" class="mt-5 ml-4 text-dark my_small">立即订制</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 私人订制服务 end-->
+    <!-- 寻找你的彩妆灵感start-->
+    <div class="divcolor w-100 pb-5">
+        <div class="text-center pt-5 mb-4">
+            <h5>FIND INSPIRATION</h5>
+            <h3>寻找你的彩妆灵感</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-12">
+                <a href="">
+                    <img src="img/index/caizhuang01.jpg" alt=""/>
+                </a>
+                <div class="bg-white pb-3">
+                    <table></table>
+                    <div class="mt-3 ml-4">
+                        <a href="" class=" text-dark">潮流杂志</a>
+                    </div>
+                    <div class="mt-5 ml-4">
+                        <a href="" class="text-dark  h4">超强遮瑕 恒久待肌</a>
+                    </div>
+                    <p class="my_small ml-4 mt-3 text-muted mb-5">YSL恒久粉底液 全新上市</p>
+                    <a href="" class="mt-5 ml-4 text-dark ">阅读全文</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-12">
+                <a href="">
+                    <img src="img/index/caizhuang02.jpg" alt=""/>
+                </a>
+                <div class="bg-white pb-3">
+                    <table></table>
+                    <div class="mt-3 ml-4">
+                        <a href="" class=" text-dark">潮流杂志</a>
+                    </div>
+                    <div class="mt-5 ml-4">
+                        <a href="" class="text-dark  h4">以大胆唇色点亮妆容</a>
+                    </div>
+                    <p class="my_small ml-4 mt-3 text-muted mb-5">在YSL的色彩世界中，每种颜色都对着着不同的个性符号。</p>
+                    <a href="" class="mt-5 ml-4 text-dark">阅读全文</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-12">
+                <a href="">
+                    <img src="img/index/caizhuang03.jpg" alt=""/>
+                </a>
+                <div class="bg-white pb-3">
+                    <table></table>
+                    <div class="mt-3 ml-4">
+                        <a href="" class=" text-dark">潮流杂志</a>
+                    </div>
+                    <div class="mt-5 ml-4">
+                        <a href="" class="text-dark  h4">为双唇赋予更多魅力</a>
+                    </div>
+                    <p class="my_small ml-4 mt-3 text-muted mb-5">玩趣大胆，放肆激情，是Imagine Dragons的另类摇滚</p>
+                    <a href="" class="mt-5 ml-4 text-dark">阅读全文</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 探索发现 end-->
+    <!-- 明星中心 start-->
+    <div class="divcolor w-100 pb-5">
+        <div class="text-center pt-5 mb-4">
+            <h5>FIND INSPIRATION</h5>
+            <h3>韬韬专属</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <a href="">
+                    <img src="img/index/taotao.jpg" alt=""/>
+                </a>
+            </div>
+            <div class="bg-white col-lg-5 col-md-12 col-sm-12">
+                <div class="mt-5">
+                    <a href="" class="text-dark mt-5 ml-4 h4">
+                        DARE OR DARE S3
+                        EPISODE#1
+                        WATER PROVE 防水挑战
+                        @YSL圣罗兰彩妆大使
+                    </a>
+                </div>
+                <p class="my_small ml-4 mt-5 pt-3 text-muted mb-5">
+                    黄子韬与Celine一起挑战防水哑光底妆，无惧风雨变幻，全天妆容服帖
+                </p>
+                <a href="" class="mt-5 ml-4 text-dark my_small">了解详情</a>
+                <h4 class="text-dark mt-5 ml-4 mb-4">
+                    黄子韬妆容单品
+                </h4>
+                <a href="" class="mt-5 ml-4 text-dark my_small pt-5 ">
+                    <span class="mr-5 ">恒颜无瑕粉底液</span>
+                    <span>恒颜无瑕粉底棒</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 明星中心 end-->
+    <!-- 底部 start-->
+    <div class="divcolor02 d-flex justify-content-around">
+        <div class="m-5 ">
+            <img src="img/index/suo.png" class="footsize ml-5" alt=""/>
+            <p class="text-white text-center mt-4">100%官方正品保证</p>
+        </div>
+        <div class="m-5 ">
+            <img src="img/index/qiche.png" class="footsize ml-5" alt=""/>
+            <p class="text-white text-center mt-4">支持多种支付方式</p>
+        </div>
+        <div class="m-5">
+            <img src="img/index/lihelogo.png" class="footsize ml-5" alt=""/>
+            <p class="text-white text-center mt-4">专享官网特惠礼遇</p>
+        </div>
+        <div class="p-5">
+            <img src="img/index/shouji%20.png" class="footsize ml-5" alt=""/>
+            <p class="text-white text-center mt-4">
+                联系我们 <br/>
+                电话400-820-6362
+            </p>
+        </div>
+    </div>
+    <div class="mt-4 d-flex justify-content-start">
+        <ul class="list-unstyled mx-5 p-4">
+            <li class=" p-1 font-weight-bold">
+                <a href="" >
+                    <span class="caizhuangstyle">彩妆</span>
+                </a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">唇部</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">面部</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">甲油</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">套装及工具</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled mx-5 p-4">
+            <li class=" p-1 font-weight-bold">
+                <a href="" class="caizhuangstyle">护肤</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">按产品分类</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">按功能分类</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">按系列分类</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled mx-5 p-4">
+            <li class=" p-1 font-weight-bold">
+                <a href="" class="caizhuangstyle">香水</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">男士香水</a>
+            </li>
+            <li class=" p-1">
+                <a href="" class="shier">女士香水</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled mx-5 p-4">
+            <li class=" p-1 font-weight-bold">
+                <a href="" class="caizhuangstyle">七夕限定礼盒</a>
+            </li>
+        </ul>
+        <ul class="list-unstyled mx-5 p-4">
+            <li class=" p-1 font-weight-bold">
+                <a href="" class="caizhuangstyle">关注我们</a>
+            </li>
+            <li class="m-3">
+                <img src="img/index/weibo.png"  class="sousuosize mr-2" alt=""/>
+                <img src="img/index/weixin.png" class="sousuosize ml-2" alt=""/>
+            </li>
+            <li>
+                <p class="text-muted p-1">
+                    联系我们
+                </p>
+            </li>
+            <li>
+                <p class="text-muted p-1">
+                    电话：400-820-6362
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="m-5 d-flex justify-content-around">
+        <img src="img/index/logo@2x.png" class="logocenter" alt=""/>
+    </div>
+    <div class="divcolor p-5">
+        <ul class="list-unstyled">
+            <li class="text-center p-3">
+                <span class="my_small text-muted mr-3">&copy;欧莱雅（中国）有限公司</span>
+                <a href="" class="my_small text-muted">中国工商</a>
+                <a href="" class="my_small text-muted mr-3">沪ICP备08100043号-28 </a>
+                <a href="" class="my_small text-muted">沪公网安备 31010602001529号</a>
+            </li>
+            <li class="text-center">
+                <a href="" class="my_small text-muted p-2">Cookies政策</a>
+                <a href="" class="my_small text-muted p-2">使用条款</a>
+                <a href="" class="my_small text-muted p-2">隐私政策</a>
+                <a href="" class="my_small text-muted p-2">网站地图</a>
+            </li>
+        </ul>
+    </div>
+    <!-- 底部 end-->
+</div>
+</body>
+</html>
