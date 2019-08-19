@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 510px;
+    position: relative;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+}
+#nav{
+    list-style: none;
+    line-height: 0;
+    height: 40px;
+    width:510px;
+    font-size: 0;
+}
+#clear{
+    clear: both;
+}
+#nav li{
+    font-size: 0;
+    line-height: 0;
+    display: inline;
+
+    float: left;
+}
+#nav a{
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    width: 80px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius:10px ;
+    color:black;
+}
+#animation{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    border-radius:10px ;
+    top: 0px;
+    z-index: -1;
+    background-color: pink;
+}

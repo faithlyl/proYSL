@@ -1,0 +1,110 @@
+/*css rest*/
+*{  margin: 0;padding: 0;  }
+
+/*border的长度*/
+.borderwidth{
+    width:1350px;
+}
+
+/*栏*/
+.yellow{
+    background-color:#cb9864;
+    height:35px;
+    font-size: 12px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.logo{
+    width:238px;
+    height:51px;
+}
+/*导航栏*/
+.daohang{
+    color:#000;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.daohang:hover .spancolor{
+    color:#856404;
+}
+.input{
+    width:280px;
+    height:34px;
+    margin-left:100px;
+    margin-top: 4px;
+}
+.sousuosize{
+    width:34px;
+    height:34px;
+}
+.didiansize{
+    width:14px;
+    height:14px;
+}
+.shier{
+    color:#999;
+    font-size: 14px;
+}
+.heise{
+    color:#000000;
+    font-size: 14px;
+}
+.huisecolor{
+    color:#999;
+}
+.shopsize{
+    width:16px;
+    height:16px;
+    margin-bottom: 2px;
+}
+
+/*去掉a的下划线*/
+.axian{
+    text-decoration:none !important;
+}
+/*面包屑导航连接符*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content: " ";
+}
+
+/**/
+.divcolor{background:#f2f2f2}
+
+/*锟斤拷锟斤拷logo锟斤拷小*/
+.sousuosize{
+    width: 28px;
+    height: 28px;
+    margin-top: -2px;
+}
+.carousel-indicators .active{
+    cursor:pointer;
+}
+/*a锟斤拷签锟斤拷锟斤拷锟斤拷锟绞?*/
+a .active{
+    text-decoration-color:#545b62;
+}
+/*锟阶诧拷锟斤拷锟斤拷锟斤拷色*/
+.divcolor02{background: #000000
+}
+/*锟阶诧拷锟斤拷片锟斤拷小*/
+.footsize{
+    width: 36px;
+    height: 36px;
+
+}
+/**/
+.spansize{
+    font-size: 7rem;
+    font-weight:100;
+}
+/*锟阶诧拷logo锟斤拷锟诫方式*/
+.logocenter{
+    vertical-align:middle;
+}
+
+
+/*底部*/
+.caizhuangstyle{
+    font-size: 14px;
+    color: #000000 !important;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0; }
+.my_small { font-size: 0.8rem; }
+a {text-decoration: none; !important;}
+/*设置header和footer的宽高*/
+.my_header,.my_footer{ width:100%;}
+@media screen and (min-width: 992px) {
+    .my_header{height:10rem;}
+    .my_footer{height:16rem;}
+}@media screen and (max-width: 991px) {
+    .my_header{height:11rem;}
+    .my_footer{height:30rem;}
+}

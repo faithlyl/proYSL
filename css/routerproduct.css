@@ -1,0 +1,53 @@
+/*面包屑导航链接符*/
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #6c757d;
+    content: "<";
+}
+/*选择框样式*/
+.dropdown_style{
+    background: transparent;
+    border:1px solid #6c757d;
+}
+/*div*/
+.divsize{
+    width:241px;
+    box-sizing: border-box;
+    margin:20px;
+}
+/*shop*/
+.child{
+    display: none;
+    width: 248px;
+}
+.shop:hover .child{
+    display: block;
+    position:absolute;
+    top:200px;
+}
+.shop:hover .parent{
+    opacity:0.3;
+}
+/*底部弹性颜色*/
+.divcolor02{background: #000000
+}
+/*底部照片大小*/
+.footsize{
+    width: 36px;
+    height: 36px;
+}
+
+/**/
+.spansize{
+    font-size: 7rem;
+    font-weight:100;
+}
+/*底部logo对齐方式*/
+.logocenter{
+    vertical-align:middle;
+}
+
+/*探索发现背景颜色*/
+.divcolor{background:#f2f2f2}

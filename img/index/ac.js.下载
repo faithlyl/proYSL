@@ -1,0 +1,1 @@
+(function(e,o){var n=window.localStorage&&localStorage.getItem("_fuge");var t=e.createElement("script");var r="//a.its.fugetech.com/_ac.js?wsid=1059&from_url="+encodeURIComponent(o.document.referrer)+"&landing_url="+encodeURIComponent(o.location.href);if(n){r+="&_fuge="+encodeURIComponent(n)}t.src=r;e.getElementsByTagName("head")[0].appendChild(t)})(window.document,window.top);

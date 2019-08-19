@@ -1,0 +1,141 @@
+/*面包屑导航连接符*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content: ">";
+}
+
+/*手机及密码字体*/
+.shouji{
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+/*星号颜色*/
+.xing{
+    font-size: 14px;
+    color:red;
+}
+
+/*左边部分*/
+.left{
+    padding-left:60px;
+}
+.denglu{
+    font-size:30px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+.inputsize{
+    width:430px;
+    height: 50px;
+}
+.imgsize{
+    width:45px;
+    height:45px;
+    padding:2px;
+}
+
+/*中间部分*/
+.center{
+    margin-left:70px;
+}
+
+.zhuce{
+    font-size:24px;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+.w1{
+    font-size:18px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.w2{
+    font-size: 14px;
+    color: #999;
+    line-height: 18px;
+}
+
+/*右边部分*/
+.right{
+    width:300px;
+    height: 250px;
+    background-color: #f2f2f2;
+}
+.p1{
+    font-size:24px;
+}
+.p2{
+    font-size:14px;
+}
+.call{
+    width: 15px;
+    height: 15px;
+}
+.anniu{
+    margin-left:60px;
+}
+
+
+.btnstyle{
+    width:180px;
+    height:45px;
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius:0;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+}
+.btn:hover .btn-a{
+    color:black;
+}
+.acolor{
+    color: white;
+}
+
+
+
+
+
+
+
+/*探索发现背景颜色*/
+.divcolor{background:#f2f2f2}
+
+.sousuoweizhi{
+    margin-left:100px;
+}
+
+/*搜索logo大小*/
+.sousuosize{
+    width: 28px;
+    height: 28px;
+    margin-top: -2px;
+}
+.carousel-indicators .active{
+    cursor:pointer;
+}
+/*a标签的鼠标显示*/
+a .active{
+    text-decoration-color:#545b62;
+}
+/*底部弹性颜色*/
+.divcolor02{background: #000000
+}
+/*底部照片大小*/
+.footsize{
+    width: 36px;
+    height: 36px;
+
+}
+/**/
+.spansize{
+    font-size: 7rem;
+    font-weight:100;
+}
+/*底部logo对齐方式*/
+.logocenter{
+    vertical-align:middle;
+}
